@@ -1,26 +1,7 @@
 "use strict";
 
-// var currentDayOfTheWeek = new Date();
-// var options = { year: "numeric", month: "long", day: "numeric" };
-// var formattedDate = currentDate.toLocaleDateString(undefined, options);
-
-// document.getElementById("currentDayOfTheWeek").textContent = formattedDate;
-
-// // Get the current date
-// var currentDate = new Date();
-
-// // Format the date as "Month Day, Year"
-// var options = { year: "numeric", month: "long", day: "numeric" };
-// var formattedDate = currentDate.toLocaleDateString(undefined, options);
-
-// // Display the formatted date in the HTML element with id "dateDisplay"
-// document.getElementById("currentDayOfTheWeek").textContent = formattedDate;
-
 document.querySelector('[data-testid="slackUserName"]').innerHTML =
   "Victor Oluwapelumi";
-
-// document.querySelector('[data-testid="currentDayOfTheWeek"]').innerHTML =
-//   "Current Day: Friday ";
 
 document.querySelector('[data-testid="myTrack"]').innerHTML = "Track: Frontend";
 
