@@ -1,8 +1,4 @@
 "use strict";
-
-document.querySelector('[data-testid="slackUserName"]').innerHTML =
-  "Victor Oluwapelumi";
-
 document.querySelector('[data-testid="myTrack"]').innerHTML = "Track: Frontend";
 
 const getCurrentDay = () => {
