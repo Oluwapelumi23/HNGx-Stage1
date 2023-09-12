@@ -34,7 +34,7 @@ const update = () => {
   );
 
   currentDayOfTheWeek.textContent = `${getCurrentDay()}`;
-  currentUTCTimeElement.textContent = `UTCTime: ${getCurrentUTCTime()} milliseconds`;
+  currentUTCTimeElement.textContent = `${getCurrentUTCTime()} milliseconds`;
 };
 
 window.onload = update;
