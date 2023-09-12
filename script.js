@@ -1,5 +1,5 @@
 "use strict";
-document.querySelector('[data-testid="myTrack"]').innerHTML = "Track: Frontend";
+document.querySelector('[data-testid="myTrack"]').innerHTML = "Frontend";
 
 const getCurrentDay = () => {
   const weekDay = [
@@ -21,7 +21,7 @@ const update = () => {
     '[data-testid="currentDayOfTheWeek"]'
   );
 
-  currentDayOfTheWeek.textContent = `Day of the week: ${getCurrentDay()}`;
+  currentDayOfTheWeek.textContent = `${getCurrentDay()}`;
 };
 
 window.onload = update;
