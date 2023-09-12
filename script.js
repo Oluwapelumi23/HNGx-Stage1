@@ -38,7 +38,7 @@ function updateUTCTime() {
   seconds = checkTime(seconds);
 
   const currentUTCTime =
-    hours + ":" + minutes + ":" + seconds + ":" + milliseconds;
+    hours + "" + minutes + "" + seconds + "" + milliseconds;
 
   const time = document.querySelector('[data-testid="currentUTCTime"]');
 
