@@ -10,16 +10,41 @@ body {
 }
 
 .task {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   margin-top: 20px;
+  border: 2px blue solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 .image img {
   width: 200px;
   height: 200px;
-  border-radius: 8.5rem;
+  border-radius: 1rem;
 }
 
 .pad {
   padding-top: 15px;
   font-weight: bold;
+  font-size: 20px;
+  color: rgb(0, 0, 240);
+}
+
+.name {
+  padding-bottom: 20px;
+}
+
+.pad a {
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .task {
+    width: 80%;
+  }
 }
