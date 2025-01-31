@@ -7,27 +7,52 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="task">
-      <h1 data-testid="slackUserName" class="pad">Oluwapelumi</h1>
-      <div class="image">
-        <img
-          data-testid="slackDisplayImage"
-          src="./slackdisplayimage.jpg"
-          alt="Oluwapelumi"
-        />
-      </div>
-      <!-- <p data-testid="currentDayOfTheWeek" class="pad"></p> -->
-
-      <p data-testid="currentDayOfTheWeek" class="pad"></p>
-      <div class="pad">
-        <h4></h4>
-        <p data-testid="currentUTCTime"></p>
-      </div>
-      <p data-testid="myTrack" class="pad"></p>
-      <div>
-        <p class="pad">
-          <a href="https://github.com/Oluwapelumi23/HNGx-Stage1" data-testid="githubURL">github URL</a>
-        </p>
+    <div class="main-container">
+      <div class="card">
+        <div
+          data-testid="profilePicture"
+          class="background-img-container"
+        ></div>
+        <div class="card-content">
+          <div class="full-name">
+            <h2 data-testid="fullName">Arogbo Victor Oluwapelumi</h2>
+          </div>
+          <div class="title">
+            <h2 data-testid="jobTitle">Frontend Developer</h2>
+          </div>
+          <div class="Bio">
+            <p data-testid="shortBio">
+              A detial-oriented and passionate Frontend Developerseeking to
+              apply my skills in building efficient, interactive and visually
+              appealing websites and Applications.
+            </p>
+          </div>
+          <div class="location">
+            <h2 data-testid="currentLocation">Ibadan, Nigeria</h2>
+          </div>
+          <div class="email">
+            <h3>
+              <a data-testid="emailAddress" href="#">
+                opelumiarogbo@gmail.com</a
+              >
+            </h3>
+          </div>
+          <div class="links">
+            <h2 data-testid="socialLinks">
+              <a
+                href="https://www.linkedin.com/in/victor-arogbo-780598256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                >LinkedIn</a
+              >
+              <a href="https://github.com/Oluwapelumi23">Github</a>
+              <a href="https://x.com/PelumiAjinde?t=a2VzwfmvmC1-T2OdTNGjSg&s=09"
+                >Twitter</a
+              >
+            </h2>
+          </div>
+          <div>
+            <p class="UTC-Time"></p>
+          </div>
+        </div>
       </div>
     </div>
 
